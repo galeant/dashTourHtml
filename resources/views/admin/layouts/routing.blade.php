@@ -1,0 +1,16 @@
+@extends('admin.layouts.index')
+@section('header')
+    @yield('header')
+@endsection
+@section('topbar')
+    @include('admin.layouts.topbar')      
+@endsection
+@section('sidebar')
+    @include('admin.layouts.sidebar')      
+@endsection
+@section('content')
+    @yield('page')
+@endsection
+@section('footer')
+    @yield('footer')
+@endsection

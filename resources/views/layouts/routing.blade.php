@@ -1,0 +1,16 @@
+@extends('layouts.index')
+@section('header')
+    @yield('header')
+@endsection
+@section('topbar')
+    @include('layouts.topbar')      
+@endsection
+@section('sidebar')
+    @include('layouts.sidebar')      
+@endsection
+@section('content')
+    @yield('page')
+@endsection
+@section('footer')
+    @yiled('footer')
+@endsection
